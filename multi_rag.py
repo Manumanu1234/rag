@@ -13,7 +13,7 @@ import tempfile
 import uvicorn
 app = FastAPI()
 llm = ChatGroq(
-    api_key="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",
+    api_key="",
     model_name="gemma2-9b-it",
     temperature=0
 )
